@@ -8,7 +8,7 @@ const qualities = [
     icon: Heart,
     title: "Loving Heart",
     description:
-      "She puts others before herself — always. Her love isn't just felt, it's lived every single day in the little things she does.",
+      "You put others before yourself — always. Your love isn't just felt, it's lived every single day in the little things you do.",
     color: "pink",
     emoji: "💕",
   },
@@ -16,7 +16,7 @@ const qualities = [
     icon: ChefHat,
     title: "Magical Cook",
     description:
-      "She turns every meal into an act of love. Food prepared with her hands tastes like home, warmth, and care in every bite.",
+      "You turn every meal into an act of love. Food prepared with your hands tastes like home, warmth, and care in every bite.",
     color: "purple",
     emoji: "🍜",
   },
@@ -24,7 +24,7 @@ const qualities = [
     icon: Users,
     title: "Empathetic Teacher",
     description:
-      "Her ability to connect with others and teach with deep empathy is rare. She doesn't just instruct — she transforms.",
+      "Your ability to connect with others and teach with deep empathy is rare. You don't just instruct — you transform.",
     color: "pink",
     emoji: "📚",
   },
@@ -32,7 +32,7 @@ const qualities = [
     icon: Baby,
     title: "Wonderful Mom",
     description:
-      "She pours love, patience, and wisdom into her children every day. Being a mom comes naturally to her — and beautifully so.",
+      "You pour love, patience, and wisdom into your children every day. Being a mom comes naturally to you — and beautifully so.",
     color: "purple",
     emoji: "👶",
   },
@@ -40,7 +40,7 @@ const qualities = [
     icon: BookOpen,
     title: "Well-Educated",
     description:
-      "A Bachelor's in English — her passion for language, literature, and communication shines in everything she does.",
+      "A Bachelor's in English — your passion for language, literature, and communication shines in everything you do.",
     color: "pink",
     emoji: "🎓",
   },
@@ -48,7 +48,7 @@ const qualities = [
     icon: Laugh,
     title: "Infectious Personality",
     description:
-      "Her humor and warmth are electric. She lights up every room she enters — people are drawn to her brilliance and joy.",
+      "Your humor and warmth are electric. You light up my life and everyone whose lives you touched — people are drawn to your brilliance and joy.",
     color: "purple",
     emoji: "✨",
   },
