@@ -56,8 +56,8 @@ export default function CelebrationSection() {
              className="font-body text-lg leading-relaxed mb-10"
              style={{ color: "hsl(var(--muted-foreground))" }}
            >
-             To Ngan — a woman of courage, compassion, laughter, and love. 
-             The world is richer, warmer, and more beautiful because of you.
+              To Ngan - my wife, best friend, beauty queen, support and super hero
+              <br />
              <br />
              <br />
               <span className="font-display italic text-xl" style={{ color: "hsl(var(--rose-red))" }}>
