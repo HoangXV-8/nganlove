@@ -66,26 +66,34 @@ export default function LetterSection() {
               <span className="font-display italic text-xl text-gradient-rose">For Ngan — My Piggy Pot Pie,</span>
             </p>
             <p>
-              On this International Women's Day, I want you to know just how truly extraordinary you are. 
-              Every single day, you remind me what it means to love unconditionally — putting others first 
-              with a heart so warm, so generous, it makes the world a brighter place.
+              Từ lần đầu tiên anh nhắn với em, không có một ngày nào anh ngừng nghĩ về em được.
             </p>
             <p>
-              The way you care for our family, the way you show up for everyone around you — selflessly, 
-              joyfully, with everything you have — is something I will forever be grateful for. You are 
-              not just an amazing wife. You are a <span className="font-display italic" style={{ color: "hsl(var(--pink))" }}>remarkable mother, a gifted teacher, and a beautiful soul.</span>
+              Trước khi gặp em, anh thật sự không hiểu hạnh phúc là như thế nào.
             </p>
             <p>
-              Your English degree speaks to your love of language and learning, but it's your ability to 
-              connect with people — to truly see them, understand them, and lift them up — that sets you 
-              apart. Your empathy is your superpower.
+              Em không chỉ cho anh tình thương của em, mà còn cho anh cảm giác được gia đình em đón nhận.
             </p>
             <p>
-               And then there's your humor — the kind that catches you off guard and fills the room with 
-               laughter. You light up my world.
+              Em là ánh sáng rực rỡ của cuộc đời anh, mang đến cho anh hy vọng mà trước đây anh chưa từng có.
             </p>
             <p>
-              Today and every day, I celebrate you. Thank you for being <em>you</em>.
+              Nhờ em, anh mới hiểu thế nào là được quan tâm thật lòng, được yêu thương vô điều kiện.
+            </p>
+            <p>
+              Trước khi gặp em, anh chỉ biết sống kiểu "sống thì sống, chết thì chết", không mục đích, không định hướng.
+            </p>
+            <p>
+              Từ ngày lấy em, anh luôn dõi theo em và con.
+            </p>
+            <p>
+              Anh cố gắng từng ngày vì hai mẹ con, vì em và con chính là ý nghĩa trong cuộc sống của anh.
+            </p>
+            <p>
+              Nhân ngày Quốc tế Phụ nữ, anh chúc em được bình an và hạnh phúc.
+            </p>
+            <p>
+              Anh thật sự may mắn khi có em và Minh Hợi trong đời.
             </p>
             <p className="pt-4 font-display italic text-xl text-gradient-gold">
               With all my love, always 💛
