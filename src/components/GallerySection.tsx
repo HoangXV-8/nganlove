@@ -79,9 +79,9 @@ export default function GallerySection() {
           className="font-display text-4xl md:text-5xl font-bold mt-3 leading-tight"
           style={{ color: "hsl(var(--rose-red))" }}
         >
-          Những Khoảnh Khắc
-          <br />
-          <span className="text-gradient-gold italic">Của Chúng Mình</span>
+           Những Khoảnh Khắc
+           <br />
+           <span className="text-gradient-gold italic">Heo và Lợn</span>
         </h2>
       </motion.div>
 
