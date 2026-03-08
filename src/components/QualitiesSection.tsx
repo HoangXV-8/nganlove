@@ -8,7 +8,7 @@ const qualities = [
     icon: Heart,
     title: "Loving Heart",
     description:
-      "You put others before yourself — always. Your love isn't just felt, it's lived every single day in the little things you do.",
+      "You put others before yourself, always. Your love isn't just felt, it's lived every single day in the little things you do.",
     color: "pink",
     emoji: "💕",
   },
@@ -24,7 +24,7 @@ const qualities = [
     icon: Users,
     title: "Empathetic Teacher",
     description:
-      "Your ability to connect with others and teach with deep empathy is rare. You don't just instruct — you transform.",
+      "Your ability to connect with others and teach with deep empathy is rare. You don't just instruct, you transform.",
     color: "pink",
     emoji: "📚",
   },
@@ -40,7 +40,7 @@ const qualities = [
     icon: BookOpen,
     title: "Well-Educated",
     description:
-      "A Bachelor's in English — your passion for language, literature, and communication shines in everything you do.",
+      "A Bachelor's in English, your passion for language, literature, and communication shines in everything you do.",
     color: "pink",
     emoji: "🎓",
   },
