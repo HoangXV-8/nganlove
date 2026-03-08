@@ -50,7 +50,7 @@ export default function LetterSection() {
           style={{
             background: "hsl(var(--card))",
             boxShadow: "var(--shadow-card)",
-            borderLeft: "4px solid hsl(var(--blush))",
+            borderLeft: "4px solid hsl(var(--pink))",
           }}
         >
           {/* Quote mark */}
