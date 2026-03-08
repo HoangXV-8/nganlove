@@ -1,13 +1,23 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import LetterSection from "@/components/LetterSection";
+import QualitiesSection from "@/components/QualitiesSection";
+import CelebrationSection from "@/components/CelebrationSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="overflow-x-hidden">
+      <HeroSection />
+      <LetterSection />
+      <QualitiesSection />
+      <CelebrationSection />
+      {/* Footer */}
+      <footer
+        className="py-8 text-center font-body text-sm"
+        style={{ color: "hsl(var(--muted-foreground))", background: "hsl(var(--petal))" }}
+      >
+        Made with 💕 for Ngan Tieu · International Women's Day 2025
+      </footer>
+    </main>
   );
 };
 
