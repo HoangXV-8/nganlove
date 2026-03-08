@@ -117,7 +117,7 @@ function QualityCard({
   index: number;
   inView: boolean;
 }) {
-  const isGold = quality.color === "gold";
+  const isPurple = quality.color === "purple";
 
   return (
     <motion.div
@@ -130,7 +130,7 @@ function QualityCard({
       style={{
         background: "hsl(var(--card))",
         boxShadow: "var(--shadow-petal)",
-        border: `1px solid hsl(var(--${isGold ? "gold" : "blush"}) / 0.2)`,
+        border: `1px solid hsl(var(--${isPurple ? "purple" : "pink"}) / 0.2)`,
       }}
     >
       {/* Icon area */}
