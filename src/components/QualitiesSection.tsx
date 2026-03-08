@@ -30,9 +30,9 @@ const qualities = [
   },
   {
     icon: Baby,
-    title: "Wonderful Mom",
+    title: "Amazing Mom and Caring Wife",
     description:
-      "You pour love, patience, and wisdom into your children every day. Being a mom comes naturally to you — and beautifully so.",
+      "You pour love and patience in us everyday helping us become a better version of ourselves. We don't know what we would do without you.",
     color: "purple",
     emoji: "👶",
   },
