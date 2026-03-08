@@ -17,7 +17,7 @@ const Index = () => {
         className="py-8 text-center font-body text-sm"
         style={{ color: "hsl(var(--muted-foreground))", background: "hsl(var(--petal))" }}
       >
-        Made with 💕 for Ngan Tieu · International Women's Day 2025
+        Made with 💕 to Ngan - my wife, best friend, beauty queen, support and super hero
       </footer>
     </main>
   );
