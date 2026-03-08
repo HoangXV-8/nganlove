@@ -32,11 +32,11 @@ export default function LetterSection() {
         >
           <span
             className="font-body text-xs uppercase tracking-[0.3em] font-bold"
-            style={{ color: "hsl(var(--blush))" }}
+            style={{ color: "hsl(var(--pink))" }}
           >
             ✦ A Love Letter ✦
           </span>
-          <h2 className="font-display text-4xl md:text-5xl mt-3 font-semibold" style={{ color: "hsl(var(--rose-dark))" }}>
+          <h2 className="font-display text-4xl md:text-5xl mt-3 font-semibold" style={{ color: "hsl(var(--rose-red))" }}>
             To My Extraordinary Wife
           </h2>
         </motion.div>
