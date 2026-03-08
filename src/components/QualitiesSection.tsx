@@ -9,7 +9,7 @@ const qualities = [
     title: "Loving Heart",
     description:
       "She puts others before herself — always. Her love isn't just felt, it's lived every single day in the little things she does.",
-    color: "blush",
+    color: "pink",
     emoji: "💕",
   },
   {
@@ -17,7 +17,7 @@ const qualities = [
     title: "Magical Cook",
     description:
       "She turns every meal into an act of love. Food prepared with her hands tastes like home, warmth, and care in every bite.",
-    color: "gold",
+    color: "purple",
     emoji: "🍜",
   },
   {
@@ -25,7 +25,7 @@ const qualities = [
     title: "Empathetic Teacher",
     description:
       "Her ability to connect with others and teach with deep empathy is rare. She doesn't just instruct — she transforms.",
-    color: "blush",
+    color: "pink",
     emoji: "📚",
   },
   {
@@ -33,7 +33,7 @@ const qualities = [
     title: "Wonderful Mom",
     description:
       "She pours love, patience, and wisdom into her children every day. Being a mom comes naturally to her — and beautifully so.",
-    color: "gold",
+    color: "purple",
     emoji: "👶",
   },
   {
@@ -41,7 +41,7 @@ const qualities = [
     title: "Well-Educated",
     description:
       "A Bachelor's in English — her passion for language, literature, and communication shines in everything she does.",
-    color: "blush",
+    color: "pink",
     emoji: "🎓",
   },
   {
@@ -49,7 +49,7 @@ const qualities = [
     title: "Infectious Personality",
     description:
       "Her humor and warmth are electric. She lights up every room she enters — people are drawn to her brilliance and joy.",
-    color: "gold",
+    color: "purple",
     emoji: "✨",
   },
 ];
