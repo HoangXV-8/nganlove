@@ -61,7 +61,7 @@ export default function CelebrationSection() {
              <br />
              <br />
               <span className="font-display italic text-xl" style={{ color: "hsl(var(--rose-red))" }}>
-                "Lia this quen chậu vợ chồng quen hơi"
+                "Lia thia quen chậu vợ chồng quen hơi"
               </span>
            </p>
          </motion.div>
