@@ -92,7 +92,7 @@ export default function CelebrationSection() {
           transition={{ delay: 0.8, duration: 1 }}
           className="mt-16 flex justify-center gap-6 text-3xl"
         >
-          {["💕", "🌸", "✨", "🌺", "💛", "🌸", "💕"].map((e, i) => (
+          {["💕", "🌸", "✨", "🌺", "💕", "🌸", "💕"].map((e, i) => (
             <motion.span
               key={i}
               animate={{ y: [0, -8, 0] }}
