@@ -44,14 +44,14 @@ const qualities = [
     color: "pink",
     emoji: "🎓",
   },
-  {
-    icon: Laugh,
-    title: "Infectious Personality",
-    description:
-      "Your humor and warmth are electric. You light up my life and everyone whose lives you touched — people are drawn to your brilliance and joy.",
-    color: "purple",
-    emoji: "✨",
-  },
+   {
+     icon: Laugh,
+     title: "Witty and Unique",
+     description:
+       "Your humor and warmth are electric. You light up my life and everyone whose lives you touched, you are unique, you don't go with the flow, but you do what you believe is right.",
+     color: "purple",
+     emoji: "✨",
+   },
 ];
 
 const cardVariants = {
