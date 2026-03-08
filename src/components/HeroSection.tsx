@@ -76,7 +76,7 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
           className="font-display italic text-xl md:text-2xl mt-4"
-          style={{ color: "hsl(var(--rose-dark))" }}
+          style={{ color: "hsl(var(--rose-red))" }}
         >
           A woman who lights up every room she enters
         </motion.p>
