@@ -36,8 +36,8 @@ export default function LetterSection() {
           >
             ✦ A Love Letter ✦
           </span>
-          <h2 className="font-display text-4xl md:text-5xl mt-3 font-semibold" style={{ color: "hsl(var(--rose-red))" }}>
-            To My Extraordinary Wife
+           <h2 className="font-display text-4xl md:text-5xl mt-3 font-semibold" style={{ color: "hsl(var(--rose-red))" }}>
+            To my heo đẹp
           </h2>
         </motion.div>
 
