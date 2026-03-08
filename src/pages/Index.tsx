@@ -1,6 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import LetterSection from "@/components/LetterSection";
 import QualitiesSection from "@/components/QualitiesSection";
+import GallerySection from "@/components/GallerySection";
 import CelebrationSection from "@/components/CelebrationSection";
 
 const Index = () => {
