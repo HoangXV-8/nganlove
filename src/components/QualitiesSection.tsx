@@ -93,7 +93,7 @@ export default function QualitiesSection() {
             className="font-body mt-4 text-base max-w-xl mx-auto"
             style={{ color: "hsl(var(--muted-foreground))" }}
           >
-            These are just a few of the countless reasons why Ngan is one in a million.
+            These are my favorite things about you.
           </p>
         </motion.div>
 
