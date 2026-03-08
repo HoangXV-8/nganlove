@@ -78,7 +78,7 @@ export default function HeroSection() {
           className="font-display italic text-xl md:text-2xl mt-4"
           style={{ color: "hsl(var(--rose-red))" }}
         >
-          A woman who lights up every room she enters
+          You light up my life and everyone whose lives you touched
         </motion.p>
 
         {/* Divider */}
