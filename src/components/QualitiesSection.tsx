@@ -134,14 +134,6 @@ function QualityCard({
       }}
     >
       {/* Icon area */}
-      <div
-        className="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl"
-        style={{
-          background: isPurple ? "hsl(var(--purple-light))" : "hsl(var(--pink-light))",
-        }}
-      >
-        <span>{quality.emoji}</span>
-      </div>
 
       <div>
         <h3
