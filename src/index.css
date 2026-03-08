@@ -6,57 +6,61 @@
 
 @layer base {
   :root {
-    /* Core palette — pink, purple, white, yellow with jasmine blue & rose red */
-    --background: 0 0% 99%;
-    --foreground: 270 20% 20%;
+    /* Core palette — white base with soft blue, light pink, lavender, gold */
+    --background: 0 0% 100%;
+    --foreground: 220 25% 18%;
 
     --card: 0 0% 100%;
-    --card-foreground: 270 20% 20%;
+    --card-foreground: 220 25% 18%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 270 20% 20%;
+    --popover-foreground: 220 25% 18%;
 
-    --primary: 320 80% 65%;
+    --primary: 335 60% 70%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 270 70% 90%;
-    --secondary-foreground: 270 20% 20%;
+    --secondary: 210 55% 92%;
+    --secondary-foreground: 220 25% 18%;
 
-    --muted: 0 0% 95%;
-    --muted-foreground: 270 10% 50%;
+    --muted: 210 30% 96%;
+    --muted-foreground: 220 15% 52%;
 
-    --accent: 50 100% 50%;
-    --accent-foreground: 270 20% 20%;
+    --accent: 48 80% 68%;
+    --accent-foreground: 220 25% 18%;
 
-    --destructive: 0 80% 50%;
+    --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 270 20% 90%;
-    --input: 270 20% 90%;
-    --ring: 320 80% 65%;
+    --border: 210 30% 88%;
+    --input: 210 30% 88%;
+    --ring: 335 60% 70%;
 
     --radius: 1rem;
 
     /* Custom tokens */
-    --pink: 320 80% 65%;
-    --pink-light: 320 85% 92%;
-    --purple: 270 70% 60%;
-    --purple-light: 270 75% 90%;
-    --yellow: 50 100% 50%;
-    --yellow-light: 50 100% 85%;
-    --jasmine-blue: 210 60% 70%;
-    --rose-red: 0 80% 50%;
+    --pink: 335 60% 70%;
+    --pink-light: 335 65% 94%;
+    --purple: 270 45% 72%;
+    --purple-light: 270 50% 93%;
+    --yellow: 48 80% 68%;
+    --yellow-light: 48 85% 90%;
+    --jasmine-blue: 210 62% 62%;
+    --jasmine-blue-light: 210 60% 93%;
+    --rose-red: 345 55% 52%;
     --white: 0 0% 100%;
+    --petal: 335 55% 96%;
+    --blush-light: 335 60% 93%;
+    --gold-light: 270 45% 92%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(160deg, hsl(320, 85%, 92%) 0%, hsl(0, 0%, 99%) 50%, hsl(270, 75%, 90%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(320, 85%, 96%) 0%, hsl(0, 0%, 100%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(320, 80%, 65%), hsl(270, 70%, 60%));
+    --gradient-hero: linear-gradient(160deg, hsl(210, 55%, 96%) 0%, hsl(0, 0%, 100%) 45%, hsl(335, 60%, 96%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(210, 50%, 97%) 0%, hsl(0, 0%, 100%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(335, 60%, 70%), hsl(210, 62%, 62%));
 
     /* Shadows */
-    --shadow-petal: 0 4px 30px -8px hsl(320 80% 65% / 0.25);
-    --shadow-card: 0 8px 40px -12px hsl(320 80% 65% / 0.18);
-    --shadow-glow: 0 0 60px -10px hsl(320 80% 65% / 0.3);
+    --shadow-petal: 0 4px 30px -8px hsl(210 62% 62% / 0.22);
+    --shadow-card: 0 8px 40px -12px hsl(210 62% 62% / 0.15);
+    --shadow-glow: 0 0 60px -10px hsl(335 60% 70% / 0.28);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -102,7 +106,7 @@
   }
 
   .text-gradient-gold {
-    background: var(--gradient-accent);
+    background: linear-gradient(135deg, hsl(var(--jasmine-blue)), hsl(var(--purple)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
