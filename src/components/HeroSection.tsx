@@ -88,9 +88,9 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 1.2 }}
           className="flex items-center justify-center gap-4 mt-8"
         >
-          <div className="h-px w-16" style={{ background: "hsl(var(--blush) / 0.5)" }} />
+          <div className="h-px w-16" style={{ background: "hsl(var(--pink) / 0.5)" }} />
           <span className="text-2xl">✦</span>
-          <div className="h-px w-16" style={{ background: "hsl(var(--gold) / 0.5)" }} />
+          <div className="h-px w-16" style={{ background: "hsl(var(--yellow) / 0.5)" }} />
         </motion.div>
       </motion.div>
 
