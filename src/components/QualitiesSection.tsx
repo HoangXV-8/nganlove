@@ -87,7 +87,7 @@ export default function QualitiesSection() {
             className="font-display text-4xl md:text-5xl mt-3 font-semibold"
             style={{ color: "hsl(var(--rose-red))" }}
           >
-            The Woman Behind the Magic
+            The Woman Behind Everything I've Accomplished
           </h2>
           <p
             className="font-body mt-4 text-base max-w-xl mx-auto"
