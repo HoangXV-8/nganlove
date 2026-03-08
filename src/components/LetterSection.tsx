@@ -63,7 +63,7 @@ export default function LetterSection() {
 
           <div className="space-y-5 font-body text-lg leading-relaxed" style={{ color: "hsl(var(--foreground))" }}>
             <p>
-              <span className="font-display italic text-xl text-gradient-rose">My dearest Ngan,</span>
+              <span className="font-display italic text-xl text-gradient-rose">For Ngan — My Piggy Pot Pie,</span>
             </p>
             <p>
               On this International Women's Day, I want you to know just how truly extraordinary you are. 
