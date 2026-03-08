@@ -79,13 +79,13 @@ export default function QualitiesSection() {
         >
           <span
             className="font-body text-xs uppercase tracking-[0.3em] font-bold"
-            style={{ color: "hsl(var(--blush))" }}
+            style={{ color: "hsl(var(--pink))" }}
           >
             ✦ What Makes Her Extraordinary ✦
           </span>
           <h2
             className="font-display text-4xl md:text-5xl mt-3 font-semibold"
-            style={{ color: "hsl(var(--rose-dark))" }}
+            style={{ color: "hsl(var(--rose-red))" }}
           >
             The Woman Behind the Magic
           </h2>
