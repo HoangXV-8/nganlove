@@ -19,6 +19,13 @@ import g15 from "@/assets/gallery-15.jpg";
 import g16 from "@/assets/gallery-16.jpg";
 import g17 from "@/assets/gallery-17.jpg";
 import g18 from "@/assets/gallery-18.jpg";
+import g19 from "@/assets/gallery-19.jpg";
+import g20 from "@/assets/gallery-20.jpg";
+import g21 from "@/assets/gallery-21.jpg";
+import g22 from "@/assets/gallery-22.jpg";
+import g23 from "@/assets/gallery-23.jpg";
+import g24 from "@/assets/gallery-24.jpg";
+import g25 from "@/assets/gallery-25.jpg";
 
 const photos = [
   { src: g1, caption: "Mình đẹp lắm 🌸" },
@@ -39,6 +46,13 @@ const photos = [
   { src: g16, caption: "Nụ cười rạng rỡ 😊" },
   { src: g17, caption: "Cáp treo đôi 🚡" },
   { src: g18, caption: "Nắng vàng miền quê ☀️" },
+  { src: g19, caption: "Áo dài bên lân sư 🏮🐉" },
+  { src: g20, caption: "Mẹ và bé đón Tết 🧧" },
+  { src: g21, caption: "Hai mẹ con bên hoa ly 🌷" },
+  { src: g22, caption: "Nụ cười hạnh phúc nhất 🥰" },
+  { src: g23, caption: "Mẹ bồng con giữa nắng xuân 🌞" },
+  { src: g24, caption: "Tết đầu tiên của con 🎊" },
+  { src: g25, caption: "Hai mẹ con áo dài đỏ 🧧❤️" },
 ];
 
 export default function GallerySection() {
