@@ -36,57 +36,57 @@ export default function CelebrationSection() {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.1 }}
         >
-          <span
-            className="font-body text-xs uppercase tracking-[0.3em] font-bold"
-            style={{ color: "hsl(var(--blush))" }}
-          >
-            ✦ Celebrating You Today & Always ✦
-          </span>
+           <span
+             className="font-body text-xs uppercase tracking-[0.3em] font-bold"
+             style={{ color: "hsl(var(--pink))" }}
+           >
+             ✦ Celebrating You Today & Always ✦
+           </span>
 
-          <h2
-            className="font-display text-4xl md:text-6xl font-bold mt-4 mb-6 leading-tight"
-            style={{ color: "hsl(var(--rose-dark))" }}
-          >
-            Happy International
-            <br />
-            <span className="text-gradient-gold italic">Women's Day</span>
-          </h2>
+           <h2
+             className="font-display text-4xl md:text-6xl font-bold mt-4 mb-6 leading-tight"
+             style={{ color: "hsl(var(--rose-red))" }}
+           >
+             Happy International
+             <br />
+             <span className="text-gradient-gold italic">Women's Day</span>
+           </h2>
 
-          <p
-            className="font-body text-lg leading-relaxed mb-10"
-            style={{ color: "hsl(var(--muted-foreground))" }}
-          >
-            To Ngan — a woman of courage, compassion, laughter, and love. 
-            The world is richer, warmer, and more beautiful because of you.
-            <br />
-            <br />
-            <span className="font-display italic text-xl" style={{ color: "hsl(var(--rose-dark))" }}>
-              "She is clothed in strength and dignity, and she laughs without fear of the future."
-            </span>
-            <br />
-            <span className="text-sm mt-1 block" style={{ color: "hsl(var(--blush))" }}>
-              — Proverbs 31:25
-            </span>
-          </p>
-        </motion.div>
+           <p
+             className="font-body text-lg leading-relaxed mb-10"
+             style={{ color: "hsl(var(--muted-foreground))" }}
+           >
+             To Ngan — a woman of courage, compassion, laughter, and love. 
+             The world is richer, warmer, and more beautiful because of you.
+             <br />
+             <br />
+             <span className="font-display italic text-xl" style={{ color: "hsl(var(--rose-red))" }}>
+               "She is clothed in strength and dignity, and she laughs without fear of the future."
+             </span>
+             <br />
+             <span className="text-sm mt-1 block" style={{ color: "hsl(var(--pink))" }}>
+               — Proverbs 31:25
+             </span>
+           </p>
+         </motion.div>
 
-        {/* Celebration badge */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={inView ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="inline-block"
-        >
-          <div
-            className="px-10 py-5 rounded-full font-display text-xl font-semibold animate-pulse-soft"
-            style={{
-              background: "linear-gradient(135deg, hsl(var(--blush)), hsl(var(--rose-dark)))",
-              color: "hsl(var(--primary-foreground))",
-              boxShadow: "var(--shadow-glow)",
-            }}
-          >
-            🌸 We love you, Ngan! 🌸
-          </div>
+         {/* Celebration badge */}
+         <motion.div
+           initial={{ opacity: 0, scale: 0.8 }}
+           animate={inView ? { opacity: 1, scale: 1 } : {}}
+           transition={{ duration: 0.6, delay: 0.4 }}
+           className="inline-block"
+         >
+           <div
+             className="px-10 py-5 rounded-full font-display text-xl font-semibold animate-pulse-soft"
+             style={{
+               background: "linear-gradient(135deg, hsl(var(--pink)), hsl(var(--rose-red)))",
+               color: "hsl(var(--primary-foreground))",
+               boxShadow: "var(--shadow-glow)",
+             }}
+           >
+             🌸 I love you, Ngan! 🌸
+           </div>
         </motion.div>
 
         {/* Floating hearts */}

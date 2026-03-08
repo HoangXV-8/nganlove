@@ -51,14 +51,14 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="inline-flex items-center gap-2 px-5 py-2 rounded-full mb-6 border"
           style={{
-            background: "hsl(var(--blush-light))",
-            borderColor: "hsl(var(--blush) / 0.4)",
+            background: "hsl(var(--pink-light))",
+            borderColor: "hsl(var(--pink) / 0.4)",
           }}
         >
           <span className="text-lg">🌸</span>
           <span
             className="text-sm font-body font-bold uppercase tracking-widest"
-            style={{ color: "hsl(var(--rose-dark))" }}
+            style={{ color: "hsl(var(--rose-red))" }}
           >
             International Women's Day · March 8
           </span>
@@ -76,7 +76,7 @@ export default function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
           className="font-display italic text-xl md:text-2xl mt-4"
-          style={{ color: "hsl(var(--rose-dark))" }}
+          style={{ color: "hsl(var(--rose-red))" }}
         >
           A woman who lights up every room she enters
         </motion.p>
@@ -88,9 +88,9 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 1.2 }}
           className="flex items-center justify-center gap-4 mt-8"
         >
-          <div className="h-px w-16" style={{ background: "hsl(var(--blush) / 0.5)" }} />
+          <div className="h-px w-16" style={{ background: "hsl(var(--pink) / 0.5)" }} />
           <span className="text-2xl">✦</span>
-          <div className="h-px w-16" style={{ background: "hsl(var(--gold) / 0.5)" }} />
+          <div className="h-px w-16" style={{ background: "hsl(var(--yellow) / 0.5)" }} />
         </motion.div>
       </motion.div>
 
@@ -107,7 +107,7 @@ export default function HeroSection() {
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
-          style={{ color: "hsl(var(--blush))" }}
+          style={{ color: "hsl(var(--pink))" }}
         >
           ↓
         </motion.div>

@@ -32,11 +32,11 @@ export default function LetterSection() {
         >
           <span
             className="font-body text-xs uppercase tracking-[0.3em] font-bold"
-            style={{ color: "hsl(var(--blush))" }}
+            style={{ color: "hsl(var(--pink))" }}
           >
             ✦ A Love Letter ✦
           </span>
-          <h2 className="font-display text-4xl md:text-5xl mt-3 font-semibold" style={{ color: "hsl(var(--rose-dark))" }}>
+          <h2 className="font-display text-4xl md:text-5xl mt-3 font-semibold" style={{ color: "hsl(var(--rose-red))" }}>
             To My Extraordinary Wife
           </h2>
         </motion.div>
@@ -50,13 +50,13 @@ export default function LetterSection() {
           style={{
             background: "hsl(var(--card))",
             boxShadow: "var(--shadow-card)",
-            borderLeft: "4px solid hsl(var(--blush))",
+            borderLeft: "4px solid hsl(var(--pink))",
           }}
         >
           {/* Quote mark */}
           <div
             className="font-display text-8xl leading-none absolute -top-4 left-8 opacity-20"
-            style={{ color: "hsl(var(--blush))" }}
+            style={{ color: "hsl(var(--pink))" }}
           >
             "
           </div>
@@ -73,7 +73,7 @@ export default function LetterSection() {
             <p>
               The way you care for our family, the way you show up for everyone around you — selflessly, 
               joyfully, with everything you have — is something I will forever be grateful for. You are 
-              not just an amazing wife. You are a <span className="font-display italic" style={{ color: "hsl(var(--blush))" }}>remarkable mother, a gifted teacher, and a beautiful soul.</span>
+              not just an amazing wife. You are a <span className="font-display italic" style={{ color: "hsl(var(--pink))" }}>remarkable mother, a gifted teacher, and a beautiful soul.</span>
             </p>
             <p>
               Your English degree speaks to your love of language and learning, but it's your ability to 

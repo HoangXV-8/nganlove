@@ -9,7 +9,7 @@ const qualities = [
     title: "Loving Heart",
     description:
       "She puts others before herself — always. Her love isn't just felt, it's lived every single day in the little things she does.",
-    color: "blush",
+    color: "pink",
     emoji: "💕",
   },
   {
@@ -17,7 +17,7 @@ const qualities = [
     title: "Magical Cook",
     description:
       "She turns every meal into an act of love. Food prepared with her hands tastes like home, warmth, and care in every bite.",
-    color: "gold",
+    color: "purple",
     emoji: "🍜",
   },
   {
@@ -25,7 +25,7 @@ const qualities = [
     title: "Empathetic Teacher",
     description:
       "Her ability to connect with others and teach with deep empathy is rare. She doesn't just instruct — she transforms.",
-    color: "blush",
+    color: "pink",
     emoji: "📚",
   },
   {
@@ -33,7 +33,7 @@ const qualities = [
     title: "Wonderful Mom",
     description:
       "She pours love, patience, and wisdom into her children every day. Being a mom comes naturally to her — and beautifully so.",
-    color: "gold",
+    color: "purple",
     emoji: "👶",
   },
   {
@@ -41,7 +41,7 @@ const qualities = [
     title: "Well-Educated",
     description:
       "A Bachelor's in English — her passion for language, literature, and communication shines in everything she does.",
-    color: "blush",
+    color: "pink",
     emoji: "🎓",
   },
   {
@@ -49,7 +49,7 @@ const qualities = [
     title: "Infectious Personality",
     description:
       "Her humor and warmth are electric. She lights up every room she enters — people are drawn to her brilliance and joy.",
-    color: "gold",
+    color: "purple",
     emoji: "✨",
   },
 ];
@@ -79,13 +79,13 @@ export default function QualitiesSection() {
         >
           <span
             className="font-body text-xs uppercase tracking-[0.3em] font-bold"
-            style={{ color: "hsl(var(--blush))" }}
+            style={{ color: "hsl(var(--pink))" }}
           >
             ✦ What Makes Her Extraordinary ✦
           </span>
           <h2
             className="font-display text-4xl md:text-5xl mt-3 font-semibold"
-            style={{ color: "hsl(var(--rose-dark))" }}
+            style={{ color: "hsl(var(--rose-red))" }}
           >
             The Woman Behind the Magic
           </h2>
@@ -117,7 +117,7 @@ function QualityCard({
   index: number;
   inView: boolean;
 }) {
-  const isGold = quality.color === "gold";
+  const isPurple = quality.color === "purple";
 
   return (
     <motion.div
@@ -130,14 +130,14 @@ function QualityCard({
       style={{
         background: "hsl(var(--card))",
         boxShadow: "var(--shadow-petal)",
-        border: `1px solid hsl(var(--${isGold ? "gold" : "blush"}) / 0.2)`,
+        border: `1px solid hsl(var(--${isPurple ? "purple" : "pink"}) / 0.2)`,
       }}
     >
       {/* Icon area */}
       <div
         className="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl"
         style={{
-          background: isGold ? "hsl(var(--gold-light))" : "hsl(var(--blush-light))",
+          background: isPurple ? "hsl(var(--purple-light))" : "hsl(var(--pink-light))",
         }}
       >
         <span>{quality.emoji}</span>
@@ -146,7 +146,7 @@ function QualityCard({
       <div>
         <h3
           className="font-display text-xl font-semibold mb-2"
-          style={{ color: isGold ? "hsl(var(--gold))" : "hsl(var(--blush))" }}
+          style={{ color: isPurple ? "hsl(var(--purple))" : "hsl(var(--pink))" }}
         >
           {quality.title}
         </h3>

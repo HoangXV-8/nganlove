@@ -6,55 +6,57 @@
 
 @layer base {
   :root {
-    /* Core palette — warm cream, blush rose, gold */
-    --background: 30 50% 97%;
-    --foreground: 20 25% 18%;
+    /* Core palette — pink, purple, white, yellow with jasmine blue & rose red */
+    --background: 0 0% 99%;
+    --foreground: 270 20% 20%;
 
-    --card: 30 40% 99%;
-    --card-foreground: 20 25% 18%;
+    --card: 0 0% 100%;
+    --card-foreground: 270 20% 20%;
 
-    --popover: 30 40% 99%;
-    --popover-foreground: 20 25% 18%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 270 20% 20%;
 
-    --primary: 340 55% 62%;
+    --primary: 320 80% 65%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 40% 92%;
-    --secondary-foreground: 20 25% 18%;
+    --secondary: 270 70% 90%;
+    --secondary-foreground: 270 20% 20%;
 
-    --muted: 30 30% 93%;
-    --muted-foreground: 20 15% 50%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 270 10% 50%;
 
-    --accent: 42 75% 58%;
-    --accent-foreground: 20 25% 18%;
+    --accent: 50 100% 50%;
+    --accent-foreground: 270 20% 20%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 80% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 30% 88%;
-    --input: 30 30% 88%;
-    --ring: 340 55% 62%;
+    --border: 270 20% 90%;
+    --input: 270 20% 90%;
+    --ring: 320 80% 65%;
 
     --radius: 1rem;
 
     /* Custom tokens */
-    --blush: 340 55% 62%;
-    --blush-light: 340 60% 92%;
-    --gold: 42 75% 58%;
-    --gold-light: 42 60% 92%;
-    --cream: 30 50% 97%;
-    --rose-dark: 340 45% 42%;
-    --petal: 340 70% 96%;
+    --pink: 320 80% 65%;
+    --pink-light: 320 85% 92%;
+    --purple: 270 70% 60%;
+    --purple-light: 270 75% 90%;
+    --yellow: 50 100% 50%;
+    --yellow-light: 50 100% 85%;
+    --jasmine-blue: 210 60% 70%;
+    --rose-red: 0 80% 50%;
+    --white: 0 0% 100%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(160deg, hsl(340, 60%, 96%) 0%, hsl(30, 50%, 97%) 50%, hsl(42, 60%, 95%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(340, 60%, 98%) 0%, hsl(30, 50%, 99%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(42, 75%, 58%), hsl(35, 80%, 65%));
+    --gradient-hero: linear-gradient(160deg, hsl(320, 85%, 92%) 0%, hsl(0, 0%, 99%) 50%, hsl(270, 75%, 90%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(320, 85%, 96%) 0%, hsl(0, 0%, 100%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(320, 80%, 65%), hsl(270, 70%, 60%));
 
     /* Shadows */
-    --shadow-petal: 0 4px 30px -8px hsl(340 55% 62% / 0.25);
-    --shadow-card: 0 8px 40px -12px hsl(340 55% 62% / 0.18);
-    --shadow-glow: 0 0 60px -10px hsl(340 55% 62% / 0.3);
+    --shadow-petal: 0 4px 30px -8px hsl(320 80% 65% / 0.25);
+    --shadow-card: 0 8px 40px -12px hsl(320 80% 65% / 0.18);
+    --shadow-glow: 0 0 60px -10px hsl(320 80% 65% / 0.3);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -93,25 +95,25 @@
   }
 
   .text-gradient-rose {
-    background: linear-gradient(135deg, hsl(var(--blush)), hsl(var(--rose-dark)));
+    background: linear-gradient(135deg, hsl(var(--pink)), hsl(var(--rose-red)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .text-gradient-gold {
-    background: var(--gradient-gold);
+    background: var(--gradient-accent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .bg-petal {
-    background-color: hsl(var(--petal));
+    background-color: hsl(var(--pink-light));
   }
 
   .bg-blush-light {
-    background-color: hsl(var(--blush-light));
+    background-color: hsl(var(--pink-light));
   }
 
   .shadow-petal {
@@ -123,6 +125,6 @@
   }
 
   .border-rose {
-    border-color: hsl(var(--blush) / 0.3);
+    border-color: hsl(var(--pink) / 0.3);
   }
 }
