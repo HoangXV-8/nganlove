@@ -125,6 +125,6 @@
   }
 
   .border-rose {
-    border-color: hsl(var(--blush) / 0.3);
+    border-color: hsl(var(--pink) / 0.3);
   }
 }
