@@ -81,8 +81,8 @@ export default function LetterSection() {
               apart. Your empathy is your superpower.
             </p>
             <p>
-              And then there's your humor — the kind that catches you off guard and fills the room with 
-              laughter. You light up every room you walk into, Ngan. Every single one.
+               And then there's your humor — the kind that catches you off guard and fills the room with 
+               laughter. You light up my world.
             </p>
             <p>
               Today and every day, I celebrate you. Thank you for being <em>you</em>.
