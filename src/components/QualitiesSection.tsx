@@ -48,7 +48,7 @@ const qualities = [
      icon: Laugh,
      title: "Witty and Unique",
      description:
-       "Your humor and warmth are electric. You light up my life and everyone whose lives you touched, you are unique, you don't go with the flow, but you do what you believe is right.",
+       "Your humor and warmth brightens this world. You are unique and don't just go with the flow always doing what you believe is right",
      color: "purple",
      emoji: "✨",
    },
