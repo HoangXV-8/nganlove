@@ -137,7 +137,7 @@ function QualityCard({
       <div
         className="w-14 h-14 rounded-2xl flex items-center justify-center text-2xl"
         style={{
-          background: isGold ? "hsl(var(--gold-light))" : "hsl(var(--blush-light))",
+          background: isPurple ? "hsl(var(--purple-light))" : "hsl(var(--pink-light))",
         }}
       >
         <span>{quality.emoji}</span>
@@ -146,7 +146,7 @@ function QualityCard({
       <div>
         <h3
           className="font-display text-xl font-semibold mb-2"
-          style={{ color: isGold ? "hsl(var(--gold))" : "hsl(var(--blush))" }}
+          style={{ color: isPurple ? "hsl(var(--purple))" : "hsl(var(--pink))" }}
         >
           {quality.title}
         </h3>
