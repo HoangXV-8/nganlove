@@ -107,7 +107,7 @@ export default function HeroSection() {
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.5 }}
-          style={{ color: "hsl(var(--blush))" }}
+          style={{ color: "hsl(var(--pink))" }}
         >
           ↓
         </motion.div>

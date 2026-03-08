@@ -73,7 +73,7 @@ export default function LetterSection() {
             <p>
               The way you care for our family, the way you show up for everyone around you — selflessly, 
               joyfully, with everything you have — is something I will forever be grateful for. You are 
-              not just an amazing wife. You are a <span className="font-display italic" style={{ color: "hsl(var(--blush))" }}>remarkable mother, a gifted teacher, and a beautiful soul.</span>
+              not just an amazing wife. You are a <span className="font-display italic" style={{ color: "hsl(var(--pink))" }}>remarkable mother, a gifted teacher, and a beautiful soul.</span>
             </p>
             <p>
               Your English degree speaks to your love of language and learning, but it's your ability to 
