@@ -85,7 +85,7 @@ export default function CelebrationSection() {
                boxShadow: "var(--shadow-glow)",
              }}
            >
-             🌸 I love you, Ngan! 🌸
+             🐷 Con Lợn thương con heo đẹp 🌸
            </div>
         </motion.div>
 
