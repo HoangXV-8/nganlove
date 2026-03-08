@@ -60,13 +60,9 @@ export default function CelebrationSection() {
              The world is richer, warmer, and more beautiful because of you.
              <br />
              <br />
-             <span className="font-display italic text-xl" style={{ color: "hsl(var(--rose-red))" }}>
-               "She is clothed in strength and dignity, and she laughs without fear of the future."
-             </span>
-             <br />
-             <span className="text-sm mt-1 block" style={{ color: "hsl(var(--pink))" }}>
-               — Proverbs 31:25
-             </span>
+              <span className="font-display italic text-xl" style={{ color: "hsl(var(--rose-red))" }}>
+                "Lia this quen chậu vợ chồng quen hơi"
+              </span>
            </p>
          </motion.div>
 
