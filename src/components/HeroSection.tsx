@@ -51,14 +51,14 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="inline-flex items-center gap-2 px-5 py-2 rounded-full mb-6 border"
           style={{
-            background: "hsl(var(--blush-light))",
-            borderColor: "hsl(var(--blush) / 0.4)",
+            background: "hsl(var(--pink-light))",
+            borderColor: "hsl(var(--pink) / 0.4)",
           }}
         >
           <span className="text-lg">🌸</span>
           <span
             className="text-sm font-body font-bold uppercase tracking-widest"
-            style={{ color: "hsl(var(--rose-dark))" }}
+            style={{ color: "hsl(var(--rose-red))" }}
           >
             International Women's Day · March 8
           </span>
