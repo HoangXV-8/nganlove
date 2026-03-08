@@ -56,7 +56,7 @@ export default function LetterSection() {
           {/* Quote mark */}
           <div
             className="font-display text-8xl leading-none absolute -top-4 left-8 opacity-20"
-            style={{ color: "hsl(var(--blush))" }}
+            style={{ color: "hsl(var(--pink))" }}
           >
             "
           </div>
